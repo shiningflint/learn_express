@@ -16,4 +16,11 @@ app.get('/json', (req, res) => {
   })
 })
 
+// exercise from video
+app.get('/bad', (req, res) => {
+  res.send({
+    errorMessage: 'Bad request'
+  })
+})
+
 app.listen(8080)
