@@ -17,3 +17,4 @@ app.get('/', (request, response) => {
   response.send('Hello world')
 })
 ```
+Using `app.get()` can give you as many routes as you want
