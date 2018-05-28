@@ -13,7 +13,7 @@ EXPRESS JS NOTES
 
 - receive
 ```javascript
-app.get((request, response) => {
+app.get('/', (request, response) => {
   response.send('Hello world')
 })
 ```
