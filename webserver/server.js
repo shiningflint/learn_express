@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express()
 
+app.use(express.static(`${__dirname}/public`))
+
 app.get('/', (req, res) => {
   res.send('<h2>Hello world!</h2><p><a href="/json">Go to JSON example</a></p>')
 })
